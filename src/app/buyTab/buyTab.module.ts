@@ -2,10 +2,10 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { BuyPage } from './buyTab.page';
+import { BuyTab } from './buyTab.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab1PageRoutingModule } from './buyTab-routing.module';
+import { BuyTabRoutingModule } from './buyTab-routing.module';
 
 @NgModule({
   imports: [
@@ -13,8 +13,8 @@ import { Tab1PageRoutingModule } from './buyTab-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    BuyTabRoutingModule
   ],
-  declarations: [BuyPage]
+  declarations: [BuyTab]
 })
-export class Tab1PageModule {}
+export class BuyTabModule {}
