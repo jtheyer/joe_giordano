@@ -1,17 +1,66 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       About Joe
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+    <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">About</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
-  <app-explore-container name="About-page"></app-explore-container>
+    <ion-grid>
+        <ion-row>
+            <ion-card class="joe-main-card">
+                <ion-img src="assets/joe-main.jpg" class="joe-main-img"></ion-img>
+            </ion-card>
+        </ion-row>
+
+        <ion-row>
+            <p class="joe-about-txt">&nbsp;&nbsp;My name is Joe Giordano and I hope that you will call me if you would like to look at properties and talk about your real estate needs in more detail. I have been working in Real estate for nearly 30 years and have the experience
+                to assist you in any of your real estate needs.<br> &nbsp;&nbsp;I am a Realtor with the Ithaca & Cortland Board of Realtors, so I can sell any property listed with any Realtor in our area. If you see anything with any office you can call
+                me and I will get you all the information on the property. Or just email me and I can email you back any listing you need.<br /> &nbsp;&nbsp;Please contact me today so I can be of assistance to you. at 607-220-5384, 607-351-1267, or click
+                here to email me, Cell: (607)351-1267 Direct: (607) 220-5384</p>
+        </ion-row>
+        <ion-row>
+            <!-- <ion-col> -->
+            <!-- <ion-card class="phone"> -->
+            <!-- <ion-card-header> -->
+            <!-- <ion-card-title class="ion-text-center">Cell</ion-card-title> -->
+            <!-- <ion-card-subtitle class="ion-text-center">We're usually available business hours
+              but in case we miss you, please, leave a voicemail and we'll return your call.
+            </ion-card-subtitle> -->
+            <!-- </ion-card-header> -->
+            <!-- <ion-card-content class="ion-text-center"> -->
+            <ion-item>
+                <ion-button fill="outline" href=tel:16073511267>
+                    <ion-icon size="large" name="call" item-start></ion-icon>
+                </ion-button>
+            </ion-item>
+            <ion-item>
+                <ion-button fill="outline" href=tel:16073511267>
+                    <ion-icon size="large" name="call" item-start></ion-icon>
+                </ion-button>
+            </ion-item>
+            <ion-item>
+                <ion-button fill="outline" href=tel:16073511267>
+                    <ion-icon size="large" name="call" item-start></ion-icon>
+                </ion-button>
+            </ion-item>
+            <!-- </ion-card-content> -->
+            <!-- </ion-card> -->
+            <!-- </ion-col> -->
+        </ion-row>
+
+        <ion-row>
+            <ion-card class="joe-headshot">
+                <ion-img src="assets/joe-headshot.png"></ion-img>
+            </ion-card>
+        </ion-row>
+
+    </ion-grid>
 </ion-content>
