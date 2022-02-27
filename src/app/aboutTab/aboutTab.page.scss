@@ -13,14 +13,18 @@ ion-card.joe-main-card {
 p.joe-about-txt {
     color: black;
     padding: 20px 50px 30px 50px;
-    max-width: 80%;
+    // max-width: 80%;
     margin: auto;
+}
+
+ion-row.joe-headshot-row {
+    padding-top: 25px;
 }
 
 ion-card.joe-headshot {
     margin: auto;
 }
 
-ion-card.phone {
+ion-item.contact-btn {
     background-color: #f5f5f5;
 }
