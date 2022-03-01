@@ -8,27 +8,27 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../buyTab/buyTab.module').then(m => m.Tab1PageModule)
+        path: 'buy',
+        loadChildren: () => import('../buyTab/buyTab.module').then(m => m.BuyTabModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../sellTab/sellTab.module').then(m => m.Tab2PageModule)
+        path: 'sell',
+        loadChildren: () => import('../sellTab/sellTab.module').then(m => m.SellTabModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../aboutTab/aboutTab.module').then(m => m.Tab3PageModule)
+        path: 'about',
+        loadChildren: () => import('../aboutTab/aboutTab.module').then(m => m.AboutTabModule)
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/buy',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/buy',
     pathMatch: 'full'
   }
 ];

@@ -3,10 +3,10 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { SellPage } from './sellTab.page';
+import { SellTab } from './sellTab.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab2PageRoutingModule } from './sellTab-routing.module';
+import { SellTabRoutingModule } from './sellTab-routing.module';
 
 @NgModule({
   imports: [
@@ -14,8 +14,8 @@ import { Tab2PageRoutingModule } from './sellTab-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    SellTabRoutingModule
   ],
-  declarations: [SellPage]
+  declarations: [SellTab]
 })
-export class Tab2PageModule {}
+export class SellTabModule {}

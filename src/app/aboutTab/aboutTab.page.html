@@ -1,17 +1,115 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       About Joe
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+    <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">About</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
-  <app-explore-container name="About-page"></app-explore-container>
+    <ion-grid>
+        <ion-row>
+            <ion-card class="joe-main-card">
+                <ion-img src="assets/joe-main.jpg" class="joe-main-img"></ion-img>
+            </ion-card>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <p class="joe-about-txt">My name is Joe Giordano and I hope
+                    that you will call me if you would like to look at properties and
+                    talk about your real estate needs in more detail. I have been working
+                    in Real estate for nearly 30 years and have the experience to assist
+                    you in any of your real estate needs.<br><br>
+                    I am a Realtor with the Ithaca & Cortland Board of Realtors,
+                    so I can sell any property listed with any Realtor in our area. If you
+                    see anything with any office you can call me and I will get you all
+                    the information on the property. Or just email me and I can email you
+                    back any listing you need.<br><br>
+                    Please contact me today so I can be of assistance to you.
+                    <!-- at
+                    607-220-5384, 607-351-1267, or click
+                    here to email me, Cell: (607)351-1267 Direct: (607) 220-5384 -->
+                </p>
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                    <ion-card class="phone contact-card">
+                        <ion-card-header>
+                            <ion-card-title class="ion-text-center">Cell</ion-card-title>
+                        </ion-card-header>
+                        <ion-card-content class="ion-text-center">
+                            <ion-button fill="clear" href=tel:16073511267>
+                                <ion-icon size="large" name="phone-portrait" item-start></ion-icon>
+                            </ion-button>
+                        </ion-card-content>
+                    </ion-card>
+            </ion-col>
+
+            <ion-col>
+            <!-- <ion-col size="12" size-sm> -->
+                    <ion-card class="text contact-card">
+                        <ion-card-header>
+                            <ion-card-title class="ion-text-center">Direct</ion-card-title>
+                        </ion-card-header>
+                        <ion-card-content class="ion-text-center">
+                            <ion-button fill="clear" href="sms:16072205384">
+                                <ion-icon name="call" item-start size="large"></ion-icon>
+                            </ion-button>
+                        </ion-card-content>
+                    </ion-card>
+            </ion-col>
+
+            <ion-col size="12" size-sm>
+                    <ion-card class="email contact-card">
+                        <ion-card-header>
+                            <ion-card-title class="ion-text-center">E-mail</ion-card-title>
+                        </ion-card-header>
+                        <ion-card-content class="ion-text-center">
+                            <ion-button fill="clear" href="mailto: joe@joegrealty.com">
+                                <ion-icon name="mail" item-start size="large"></ion-icon>
+                            </ion-button>
+                        </ion-card-content>
+                    </ion-card>
+            </ion-col>
+            <!-- <ion-col size="12" size-sm>
+                <ion-item class="contact-btn">
+                    <ion-button fill="outline" href=tel:16073511267>
+                        <ion-icon size="large" name="call" item-start></ion-icon>
+                    </ion-button>
+                </ion-item>
+            </ion-col>
+
+            <ion-col size="12" size-sm>
+                <ion-item>
+                    <ion-button fill="outline" href=tel:16073511267>
+                        <ion-icon size="large" name="call" item-start></ion-icon>
+                    </ion-button>
+                </ion-item>
+            </ion-col>
+
+            <ion-col size="12" size-sm>
+                <ion-item>
+                    <ion-button fill="outline" href=tel:16073511267>
+                        <ion-icon size="large" name="call" item-start></ion-icon>
+                    </ion-button>
+                </ion-item>
+            </ion-col> -->
+        </ion-row>
+
+        <ion-row class="joe-headshot-row">
+            <ion-card class="joe-headshot">
+                <ion-img src="assets/joe-headshot.png"></ion-img>
+            </ion-card>
+        </ion-row>
+
+    </ion-grid>
 </ion-content>
