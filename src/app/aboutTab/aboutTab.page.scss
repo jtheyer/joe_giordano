@@ -3,11 +3,15 @@ ion-img {
     height: 100%;
 }
 
+ion-card {
+    margin: auto;
+}
+
 ion-card.joe-main-card {
     border-radius: 5px !important;
     border: 10px !important;
     border-color: white !important;
-    margin: auto;
+    // margin: auto;
 }
 
 p.joe-about-txt {
@@ -27,4 +31,17 @@ ion-card.joe-headshot {
 
 ion-item.contact-btn {
     background-color: #f5f5f5;
+}
+
+ion-card.contact-card {
+    background-color: #E8E8E8;
+    max-width: min-content;
+}
+
+ion-card-title {
+    color: black;
+}
+
+ion-col {
+    margin-bottom: 25px;
 }

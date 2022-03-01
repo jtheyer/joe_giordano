@@ -25,15 +25,67 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+@font-face {
+  font-family: "JosefinSans";
+  src: url("assets/font/JosefinSans/JosefinSans-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Cinzel";
+  src: url("assets/font/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("assets/font/Lato/Lato-Regular.ttf");
+}
+:root {
+ --ion-font-family: 'Cinzel';
+ font-size: 1.5em;
+}
+ion-label {
+  font-family: 'Lato';
+}
+ion-card-title {
+  font-family: 'Lato';
+}
+ion-card.contact-card {
+  margin-bottom: 150px;
+}
+
+ion-icon {
+  color: #036E40;
+}
+
+ion-button {
+  background: #E8E8E8 !important;
+}
+
+/*
+* Custom Color
+*/
+// :root {
+// 	--ion-color-new: #E8E8E8;
+// 	--ion-color-new-rgb: 232,232,232;
+// 	--ion-color-new-contrast: #000000;
+// 	--ion-color-new-contrast-rgb: 0,0,0;
+// 	--ion-color-new-shade: #cccccc;
+// 	--ion-color-new-tint: #eaeaea;
+// }
+
+// .ion-color-new {
+// 	--ion-color-base: var(--ion-color-new);
+// 	--ion-color-base-rgb: var(--ion-color-new-rgb);
+// 	--ion-color-contrast: var(--ion-color-new-contrast);
+// 	--ion-color-contrast-rgb: var(--ion-color-new-contrast-rgb);
+// 	--ion-color-shade: var(--ion-color-new-shade);
+// 	--ion-color-tint: var(--ion-color-new-tint);
+// }
 
 /*
  * Dark Colors
  * -------------------------------------------
  */
-
-
  body.dark {
-    --ion-color-primary: #428cff;
+    --ion-color-primary: #036E40;
     --ion-color-primary-rgb: 66, 140, 255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -145,7 +197,6 @@
    * Material Design Dark Theme
    * -------------------------------------------
    */
-  
   .md body.dark {
     --ion-background-color: #f5f5f5;
     --ion-background-color-rgb: 18, 18, 18;
