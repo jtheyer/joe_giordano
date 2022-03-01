@@ -11,7 +11,8 @@ ion-card.joe-main-card {
     border-radius: 5px !important;
     border: 10px !important;
     border-color: white !important;
-    // margin: auto;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 p.joe-about-txt {
